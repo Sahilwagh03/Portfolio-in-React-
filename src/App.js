@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills';
 import Project from './components/projects/Project';
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Fadecomponent from './components/FadeComponent/Fadecomponent';
 
 
 function App() {
@@ -16,10 +17,18 @@ function App() {
 
     <main className='main'>
       <Home/>
+      <Fadecomponent>
       <About/>
+      </Fadecomponent>
+      <Fadecomponent>
       <Skills/>
+      </Fadecomponent>
+      <Fadecomponent>
       <Project/>
+      </Fadecomponent>
+      <Fadecomponent>
       <Contact/>
+      </Fadecomponent>
       <Footer/>
     </main>
     </>
