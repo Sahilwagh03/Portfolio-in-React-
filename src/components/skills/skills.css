@@ -50,6 +50,40 @@
     font-size: var(--tiny-font-size);
 }
 
+.skills_grid{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.skills_icons_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+}
+
+.skills_info {
+    padding: 15px;
+    background: whitesmoke;
+    border-radius: 60px;
+    display: grid;
+    justify-items: center;
+}
+
+.skills_info:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.skills_info img {
+    width: 56px;
+}
+
+.skills_grid_div {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
 
 
 /*=============== BREAKPOINTS ===============*/
@@ -69,6 +103,11 @@
 
     .skills__content{
         padding: 1.5rem;
+    }
+
+    .skills_icons_grid{
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
     }
   }
   
