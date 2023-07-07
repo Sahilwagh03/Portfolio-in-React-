@@ -1,7 +1,12 @@
 import React from 'react'
+import {delay, motion} from 'framer-motion'
+
 const Data = () => {
   return (
-    <div className="home__data">
+    <motion.div className="home__data"
+    initial={{opacity:0 , x:-50}}
+    animate={{opacity:1 , x:0}}
+    transition={{duration:0.5 ,delay:0.5}}>
         <h1 className="home__title">
             Sahil Wagh
             <svg
@@ -80,7 +85,7 @@ const Data = () => {
         </a>
 
 
-    </div>
+    </motion.div>
   )
 }
 
