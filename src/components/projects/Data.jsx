@@ -1,53 +1,40 @@
-import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work2.jpg"
-import Work3 from "../../assets/work3.jpg"
-import Work4 from "../../assets/work4.jpg"
-import Work5 from "../../assets/work5.jpg"
-
+import ReadmeGen  from '../../assets/readme-generator-sigma.vercel.app_(Nest Hub Max).png'
+import movie_verse  from '../../assets/movie-verse-black.vercel.app_(Nest Hub Max) (1).png'
+import Ace_apti  from '../../assets/ace-aptitude-psi.vercel.app_(Nest Hub Max).png'
+import sortedStudy  from '../../assets/sortedstudynew.github.io_SortedStudy_index.html(Nest Hub Max).png'
 
 
 export const projectData = [
     {
         id:1,
-        image:  Work1,
-        title: 'Weather App',
-        category: 'web',
-        Link:'https://weather-app-iota-six.vercel.app/'
+        image:  movie_verse,
+        title: 'Movie Verse',
+        decription: 'Discover and explore a world of movies . Get detailed information and ratings on various films, making your movie-watching experience even more exciting.',
+        Link:'https://movie-verse-black.vercel.app/',
+        gitLink:'https://github.com/Sahilwagh03/MovieVerse'
     },
     {
         id:2,
-        image: Work2 ,
-        title: 'Contesta',
-        category: 'web',
-        Link:'https://contesta-gilt.vercel.app/'
+        image: ReadmeGen ,
+        title: 'Profile Readme Generation',
+        decription: 'Generate impressive profile READMEs effortlessly with this. Stand out on GitHub with visually appealing showcases of your skills and projects.',
+        Link:'https://readme-generator-sigma.vercel.app/',
+        gitLink:'https://github.com/Sahilwagh03/ReadMeGenerator'
     },
     {
         id:3,
-        image: Work3 ,
-        title: 'ImgResizer',
-        category: 'web',
-        Link:'https://resizer-two.vercel.app/'
+        image: Ace_apti ,
+        title: 'Ace Apptitude',
+        decription: 'Practice and improve your aptitude skills with our wide range of tests. Challenge yourself and track your progress.',
+        Link:'https://ace-aptitude-psi.vercel.app/',
+        gitLink:'https://github.com/Sahilwagh03/Ace_Aptitude_New'
     },
     {
         id:4,
-        image: Work4 ,
-        title: 'CodeClub',
-        category: 'web',
-        Link:'https://code-eidtor-for-html-css-js-code-club-y1hu.vercel.app/'
+        image: sortedStudy ,
+        title: 'Sorted Study',
+        decription: ' Its free! SortedStudy is our attempt to provide cureted playlist to students in short time which took us age to find.',
+        Link:'https://sortedstudynew.github.io/SortedStudy/index.html',
+        gitLink:'https://github.com/SortedStudyNew/SortedStudy'
     },
-    {
-        id:5,
-        image: Work5 ,
-        title: 'MovieLand',
-        category: 'web',
-        Link:'https://movie-land-gamma.vercel.app/'
-    },
-    {
-        id:6,
-        image: Work2 ,
-        title: 'QuizQuest',
-        category: 'web',
-        Link:'https://quiz-quest.vercel.app/'
-    },
-    
 ]
