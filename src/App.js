@@ -13,24 +13,24 @@ import Fadecomponent from './components/FadeComponent/Fadecomponent';
 function App() {
   return (
     <>
-    <Header/>
-
-    <main className='main'>
-      <Home/>
-      <Fadecomponent>
-      <About/>
-      </Fadecomponent>
-      <Fadecomponent>
-      <Skills/>
-      </Fadecomponent>
-      <Fadecomponent>
-      <Project/>
-      </Fadecomponent>
-      <Fadecomponent>
-      <Contact/>
-      </Fadecomponent>
-      <Footer/>
-    </main>
+      <Header />
+      
+      <main className='main'>
+        <Home />
+        <Fadecomponent>
+          <About />
+        </Fadecomponent>
+        <Fadecomponent>
+          <Skills />
+        </Fadecomponent>
+        <Fadecomponent>
+          <Project />
+        </Fadecomponent>
+        <Fadecomponent>
+          <Contact />
+        </Fadecomponent>
+        <Footer />
+      </main>
     </>
   );
 }
