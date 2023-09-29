@@ -52,8 +52,8 @@
 
 .skills_grid{
     display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-items: center;
-    align-items: center;
 }
 
 .skills_icons_grid{
@@ -94,6 +94,34 @@
     align-items: center;
 }
 
+.skills_experience_main{
+    position: relative;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.experience_container{
+    border-left: 2px solid lightgray;
+    padding-left: 20px;
+}
+
+.experience_card_container{
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.experience_card_container::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: black;
+    position: absolute;
+    left: -29px;
+    border-radius: 50%;
+}
+
 @keyframes   skills__animate{
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -125,6 +153,10 @@
     .skills__container{
         grid-template-columns: max-content;
         row-gap: 2rem;
+    }
+    .skills_grid{
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
     }
   }
   

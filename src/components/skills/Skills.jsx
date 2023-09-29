@@ -15,9 +15,25 @@ import mongodb from '../../assets/mongodb-png.png'
 
 
 const Skills = () => {
+
+  const Experiences = [
+    {
+      id: '1',
+      Duration: 'July-Oct 2023',
+      Role: 'Web Developer at Artist Mela',
+      description: 'Learned so many thing such as Maintaining the code quality,Performance also got so any new ideas , frame works',
+    },
+    {
+      id: '2',
+      Duration: 'Oct-Present 2023',
+      Role: 'Frontend Developer at CallForReferral',
+      description: 'Currently joined Exicted to learn and grow with team',
+    },
+
+  ]
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
+      <h2 className="section__title">Skills & Experience</h2>
       <span className="section__subtitle">My Techhnical level</span>
 
 
@@ -84,6 +100,19 @@ const Skills = () => {
               </div>
               <p>C++</p>
             </div>
+          </div>
+        </div>
+        <div className="skills_experience_main">
+          <div className="experience_container">
+            {
+              Experiences.map((data) =>
+                <div className="experience_card_container" key={data.id}>
+                  <h4>{data.Duration}</h4>
+                  <h3>{data.Role}</h3>
+                  <p>{data.description}</p>
+                </div>
+              )
+            }
           </div>
         </div>
       </div>
