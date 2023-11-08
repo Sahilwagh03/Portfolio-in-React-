@@ -24,8 +24,12 @@ const Project = () => {
                 <h3>{project.title}</h3>
                 <p>{project.decription}</p>
                 <div className="Techstack">
-                  <p>React</p>
-                  <p>Css</p>
+                  {
+                    project.languages.map((language)=>(
+                      <p>{language}</p>
+                    ))
+                  }
+
                 </div>
                 <div className="project_links">
                   <div className='code'>

@@ -11,7 +11,8 @@ export const projectData = [
         title: 'Movie Verse',
         decription: 'Discover and explore a world of movies . Get detailed information and ratings on various films, making your movie-watching experience even more exciting.',
         Link:'https://movie-verse-black.vercel.app/',
-        gitLink:'https://github.com/Sahilwagh03/MovieVerse'
+        gitLink:'https://github.com/Sahilwagh03/MovieVerse',
+        languages:['React','Css']
     },
     {
         id:2,
@@ -19,7 +20,8 @@ export const projectData = [
         title: 'Profile Readme Generation',
         decription: 'Generate impressive profile READMEs effortlessly with this. Stand out on GitHub with visually appealing showcases of your skills and projects.',
         Link:'https://readme-generator-sigma.vercel.app/',
-        gitLink:'https://github.com/Sahilwagh03/ReadMeGenerator'
+        gitLink:'https://github.com/Sahilwagh03/ReadMeGenerator',
+        languages:['React','Css','Framer Motion']
     },
     {
         id:3,
@@ -27,7 +29,8 @@ export const projectData = [
         title: 'Ace Apptitude',
         decription: 'Practice and improve your aptitude skills with our wide range of tests. Challenge yourself and track your progress.',
         Link:'https://ace-aptitude-psi.vercel.app/',
-        gitLink:'https://github.com/Sahilwagh03/Ace_Aptitude_New'
+        gitLink:'https://github.com/Sahilwagh03/Ace_Aptitude_New',
+        languages:['React','Express','Mongodb']
     },
     {
         id:4,
@@ -35,6 +38,7 @@ export const projectData = [
         title: 'Sorted Study',
         decription: ' Its free! SortedStudy is our attempt to provide cureted playlist to students in short time which took us age to find.',
         Link:'https://sortedstudynew.github.io/SortedStudy/index.html',
-        gitLink:'https://github.com/SortedStudyNew/SortedStudy'
+        gitLink:'https://github.com/SortedStudyNew/SortedStudy',
+        languages:['Html','Css','Js']
     },
 ]
